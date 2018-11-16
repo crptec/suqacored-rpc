@@ -8,7 +8,16 @@ A client library to connect to SUQA Core RPC in JavaScript.
 suqacored-rpc for suqacore-node
 
 ```bash
+git clone https://github.com/crptec/suqacored-rpc.git
+cd suqacored-rpc
 npm install suqacored-rpc
+```
+
+### Bitcore-node module
+```
+cd node_modules
+rm -rf suqacored-rpc
+ln -s ~/suqacored-rpc
 ```
 
 ## RpcClient
